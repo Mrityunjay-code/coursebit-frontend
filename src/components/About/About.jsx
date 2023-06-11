@@ -13,20 +13,21 @@ import React from 'react';
 import { RiSecurePaymentFill } from 'react-icons/ri';
 import { Link } from 'react-router-dom';
 import introVideo from '../../assets/videos/intro.mp4';
-import mypic from "../../assets/images/my.jpeg"
+import mypic from "../../assets/images/my1.jpg";
 
 const Founder = () => (
+  document.title="About",
   <Stack direction={['column', 'row']} spacing={['4', '16']} padding={'8'}>
     <VStack>
-      <Avatar
+       <Avatar
         src={mypic}
         boxSize={['40', '48']}
-      />
+      /> 
       <Text children="Co-Founder" opacity={0.7} />
     </VStack>
 
     <VStack justifyContent={'center'} alignItems={['center', 'flex-start']}>
-      <Heading children="Dhruvit Patel" size={['md', 'xl']} />
+      <Heading children="AMMA GROUP" size={['md', 'xl']} />
       <Text
         textAlign={['center', 'left']}
         children={`Hi, I am a full-stack developer and a teacher.
@@ -39,7 +40,7 @@ const Founder = () => (
 const VideoPlayer = () => (
   <Box>
     <video
-      autoPlay
+      // autoPlay
       loop
       muted
       controls

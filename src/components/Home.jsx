@@ -11,12 +11,12 @@ import {
 } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
 import './home.css';
-import vg from '../assets/images/bg.png';
+import vg from '../assets/images/front.png';
 import { SiCoursera, SiUdemy } from 'react-icons/si';
 import { FaAws } from 'react-icons/fa';
 import { FaYoutube } from 'react-icons/fa';
 import { GrGoogle } from 'react-icons/gr';
-import introVideo from '../assets/videos/intro.mp4';
+import introVideo from '../assets/videos/intro1.mp4';
 
 const Home = () => {
   return (
@@ -34,7 +34,7 @@ const Home = () => {
             alignItems={['center', 'flex-end']}
             spacing="6"
           >
-            <Heading children="LEARN FROM THE EXPERTS" size={'2xl'} />
+            <Heading children="LEARNING IS A LIFELONG PROCESS" size={'2xl'} />
             <Text
               fontSize={'2xl'}
               fontFamily={'cursive'}

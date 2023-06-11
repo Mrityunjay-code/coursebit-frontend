@@ -12,20 +12,20 @@ const Footer = () => {
           fontSize="30"
           marginBottom={'5'}
         >
-          <a href="https://twitter.com/pateldhruvit07" target={'blank'}>
+          <a href="https://twitter.com/Mrityun48838594" target={'blank'}>
             <AiFillTwitterCircle />
           </a>
-          <a href="https://www.instagram.com/mr_dhr_007/" target={'blank'}>
+          <a href="https://www.instagram.com/digital_sanatani_01/" target={'blank'}>
             <AiFillInstagram />
           </a>
-          <a href="https://github.com/DhruvitPatel007" target={'blank'}>
+          <a href="https://github.com/Mrityunjay-code" target={'blank'}>
             <AiFillGithub />
           </a>
         </HStack>
 
         <Stack alignItems={['center', 'center']} width="full">
           <Heading
-            children="All Rights Reserved @Dhruvit Patel 2022"
+            children="All Rights Reserved by @AMMA GROUP 2023"
             color={'white'}
             fontSize="15"
           />

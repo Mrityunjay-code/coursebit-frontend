@@ -18,7 +18,7 @@ const Navbar = ({isAuthenticated=false,user}) => {
     <>
       <nav className="navigation">
         <a href="/" className="brand-name">
-          Course Bundler
+          COURSE BIT
         </a>
         <button
           className="hamburger"
