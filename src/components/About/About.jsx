@@ -12,7 +12,7 @@ import {
 import React from 'react';
 import { RiSecurePaymentFill } from 'react-icons/ri';
 import { Link } from 'react-router-dom';
-import introVideo from '../../assets/videos/intro.mp4';
+import introVideo from '../../assets/videos/intro1.mp4';
 import mypic from "../../assets/images/my1.jpg";
 
 const Founder = () => (
@@ -40,7 +40,7 @@ const Founder = () => (
 const VideoPlayer = () => (
   <Box>
     <video
-      // autoPlay
+       autoPlay
       loop
       muted
       controls
